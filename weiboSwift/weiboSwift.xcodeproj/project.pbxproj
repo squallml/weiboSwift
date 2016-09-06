@@ -17,6 +17,10 @@
 		3A3E5C9B1D7DD5630056468E /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E5C9A1D7DD5630056468E /* DiscoverViewController.swift */; };
 		3A3E5C9D1D7DD5780056468E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E5C9C1D7DD5780056468E /* ProfileViewController.swift */; };
 		3A3E5CA01D7DE5760056468E /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E5C9F1D7DE5760056468E /* MainVCSettings.json */; };
+		3A923F791D7EBBF700CF1393 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A923F771D7EBBF700CF1393 /* Home.storyboard */; };
+		3A923F7B1D7EBC1700CF1393 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A923F7A1D7EBC1700CF1393 /* Message.storyboard */; };
+		3A923F7E1D7EBC3500CF1393 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A923F7C1D7EBC3500CF1393 /* Discover.storyboard */; };
+		3A923F801D7EBC4F00CF1393 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A923F7F1D7EBC4F00CF1393 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		3A3E5C9A1D7DD5630056468E /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		3A3E5C9C1D7DD5780056468E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3A3E5C9F1D7DE5760056468E /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		3A923F781D7EBBF700CF1393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		3A923F7A1D7EBC1700CF1393 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Message.storyboard; path = ../../Message.storyboard; sourceTree = "<group>"; };
+		3A923F7D1D7EBC3500CF1393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Discover.storyboard; sourceTree = "<group>"; };
+		3A923F7F1D7EBC4F00CF1393 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../../Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,7 @@
 		3A3E5C8B1D7DC6080056468E /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				3A923F7C1D7EBC3500CF1393 /* Discover.storyboard */,
 				3A3E5C9A1D7DD5630056468E /* DiscoverViewController.swift */,
 			);
 			path = Discover;
@@ -97,6 +106,7 @@
 		3A3E5C8C1D7DC6080056468E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3A923F771D7EBBF700CF1393 /* Home.storyboard */,
 				3A3E5C961D7DD5380056468E /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -114,6 +124,7 @@
 		3A3E5C8E1D7DC6080056468E /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				3A923F7A1D7EBC1700CF1393 /* Message.storyboard */,
 				3A3E5C981D7DD54B0056468E /* MessageViewController.swift */,
 			);
 			path = Message;
@@ -122,6 +133,7 @@
 		3A3E5C8F1D7DC6080056468E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3A923F7F1D7EBC4F00CF1393 /* Profile.storyboard */,
 				3A3E5C9C1D7DD5780056468E /* ProfileViewController.swift */,
 			);
 			path = Profile;
@@ -195,8 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3E5C831D7DBE420056468E /* LaunchScreen.storyboard in Resources */,
+				3A923F791D7EBBF700CF1393 /* Home.storyboard in Resources */,
+				3A923F801D7EBC4F00CF1393 /* Profile.storyboard in Resources */,
 				3A3E5C801D7DBE420056468E /* Assets.xcassets in Resources */,
 				3A3E5CA01D7DE5760056468E /* MainVCSettings.json in Resources */,
+				3A923F7B1D7EBC1700CF1393 /* Message.storyboard in Resources */,
+				3A923F7E1D7EBC3500CF1393 /* Discover.storyboard in Resources */,
 				3A3E5C7E1D7DBE420056468E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +250,24 @@
 				3A3E5C821D7DBE420056468E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A923F771D7EBBF700CF1393 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A923F781D7EBBF700CF1393 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3A923F7C1D7EBC3500CF1393 /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A923F7D1D7EBC3500CF1393 /* Base */,
+			);
+			name = Discover.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -371,6 +405,7 @@
 				3A3E5C891D7DBE420056468E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
