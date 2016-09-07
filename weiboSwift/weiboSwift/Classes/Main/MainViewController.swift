@@ -29,8 +29,18 @@ extension MainViewController{
     private func setupComposeBtn(){
         tabBar.addSubview(composeBtn)
         composeBtn.center = CGPointMake(tabBar.center.x, tabBar.bounds.size.height * 0.5)
+        
+        /// 监听发布按钮
+        composeBtn.addTarget(self, action: #selector(MainViewController.composeBtnClick), forControlEvents: .TouchUpInside)
     }
     
-    
+}
+
+// MARK:- 事件监听
+extension MainViewController{
+    // @objc -将OC中private方法加入消息列表
+    @objc private func composeBtnClick(){
+        print("composeBtnClick")
+    }
 }
 

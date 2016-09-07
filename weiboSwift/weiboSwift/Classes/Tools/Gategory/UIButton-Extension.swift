@@ -9,6 +9,7 @@
 import UIKit
 
 extension UIButton{
+    /// 便利构造函数
     convenience init (imageName : String,bgImageName : String) {
         self.init()
         setImage(UIImage(named: imageName), forState: .Normal)
