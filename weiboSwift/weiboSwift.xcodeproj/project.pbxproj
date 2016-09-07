@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A38E5A71D80673F001C8175 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */; };
 		3A3E5C791D7DBE420056468E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E5C781D7DBE420056468E /* AppDelegate.swift */; };
 		3A3E5C7E1D7DBE420056468E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E5C7C1D7DBE420056468E /* Main.storyboard */; };
 		3A3E5C801D7DBE420056468E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E5C7F1D7DBE420056468E /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
 		3A3E5C751D7DBE420056468E /* weiboSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiboSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E5C781D7DBE420056468E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A3E5C7D1D7DBE420056468E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A38E5A41D806681001C8175 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3A38E5A51D80670D001C8175 /* Gategory */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3A38E5A51D80670D001C8175 /* Gategory */ = {
+			isa = PBXGroup;
+			children = (
+				3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */,
+			);
+			path = Gategory;
+			sourceTree = "<group>";
+		};
 		3A3E5C6C1D7DBE420056468E = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +110,7 @@
 				3A3E5C8E1D7DC6080056468E /* Message */,
 				3A3E5C8B1D7DC6080056468E /* Discover */,
 				3A3E5C8F1D7DC6080056468E /* Profile */,
+				3A38E5A41D806681001C8175 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -229,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3E5C9D1D7DD5780056468E /* ProfileViewController.swift in Sources */,
+				3A38E5A71D80673F001C8175 /* UIButton-Extension.swift in Sources */,
 				3A3E5C791D7DBE420056468E /* AppDelegate.swift in Sources */,
 				3A3E5C931D7DCFC70056468E /* MainViewController.swift in Sources */,
 				3A3E5C991D7DD54B0056468E /* MessageViewController.swift in Sources */,
