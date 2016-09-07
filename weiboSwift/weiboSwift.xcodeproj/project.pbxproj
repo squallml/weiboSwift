@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3A38E5A71D80673F001C8175 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */; };
+		3A38E5AA1D80749A001C8175 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38E5A91D80749A001C8175 /* BaseViewController.swift */; };
+		3A38E5AC1D807799001C8175 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38E5AB1D807799001C8175 /* VisitorView.swift */; };
+		3A38E5AE1D8077D5001C8175 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A38E5AD1D8077D5001C8175 /* VisitorView.xib */; };
 		3A3E5C791D7DBE420056468E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E5C781D7DBE420056468E /* AppDelegate.swift */; };
 		3A3E5C7E1D7DBE420056468E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E5C7C1D7DBE420056468E /* Main.storyboard */; };
 		3A3E5C801D7DBE420056468E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E5C7F1D7DBE420056468E /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		3A38E5A91D80749A001C8175 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3A38E5AB1D807799001C8175 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		3A38E5AD1D8077D5001C8175 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		3A3E5C751D7DBE420056468E /* weiboSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiboSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E5C781D7DBE420056468E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A3E5C7D1D7DBE420056468E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +77,16 @@
 				3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */,
 			);
 			path = Gategory;
+			sourceTree = "<group>";
+		};
+		3A38E5A81D807469001C8175 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				3A38E5A91D80749A001C8175 /* BaseViewController.swift */,
+				3A38E5AB1D807799001C8175 /* VisitorView.swift */,
+				3A38E5AD1D8077D5001C8175 /* VisitorView.xib */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 		3A3E5C6C1D7DBE420056468E = {
@@ -137,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				3A3E5C9E1D7DE5760056468E /* Resource */,
+				3A38E5A81D807469001C8175 /* Visitor */,
 				3A3E5C921D7DCFC70056468E /* MainViewController.swift */,
 			);
 			path = Main;
@@ -229,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3E5C831D7DBE420056468E /* LaunchScreen.storyboard in Resources */,
+				3A38E5AE1D8077D5001C8175 /* VisitorView.xib in Resources */,
 				3A923F791D7EBBF700CF1393 /* Home.storyboard in Resources */,
 				3A923F801D7EBC4F00CF1393 /* Profile.storyboard in Resources */,
 				3A3E5C801D7DBE420056468E /* Assets.xcassets in Resources */,
@@ -252,6 +270,8 @@
 				3A3E5C791D7DBE420056468E /* AppDelegate.swift in Sources */,
 				3A3E5C931D7DCFC70056468E /* MainViewController.swift in Sources */,
 				3A3E5C991D7DD54B0056468E /* MessageViewController.swift in Sources */,
+				3A38E5AA1D80749A001C8175 /* BaseViewController.swift in Sources */,
+				3A38E5AC1D807799001C8175 /* VisitorView.swift in Sources */,
 				3A3E5C971D7DD5380056468E /* HomeViewController.swift in Sources */,
 				3A3E5C9B1D7DD5630056468E /* DiscoverViewController.swift in Sources */,
 			);
