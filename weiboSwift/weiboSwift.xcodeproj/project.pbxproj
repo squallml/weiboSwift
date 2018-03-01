@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3203691D829B5E00E7029C /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3203681D829B5E00E7029C /* TitleButton.swift */; };
+		3A32036D1D82A2D800E7029C /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A32036B1D82A2D800E7029C /* PopoverViewController.swift */; };
+		3A32036E1D82A2D800E7029C /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A32036C1D82A2D800E7029C /* PopoverViewController.xib */; };
 		3A38E5A71D80673F001C8175 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */; };
 		3A38E5AA1D80749A001C8175 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38E5A91D80749A001C8175 /* BaseViewController.swift */; };
 		3A38E5AC1D807799001C8175 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A38E5AB1D807799001C8175 /* VisitorView.swift */; };
 		3A38E5AE1D8077D5001C8175 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A38E5AD1D8077D5001C8175 /* VisitorView.xib */; };
+		3A3DBD951D81DED40046FF0F /* UIBarButttonItem-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DBD941D81DED40046FF0F /* UIBarButttonItem-Extention.swift */; };
 		3A3E5C791D7DBE420056468E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E5C781D7DBE420056468E /* AppDelegate.swift */; };
 		3A3E5C7E1D7DBE420056468E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E5C7C1D7DBE420056468E /* Main.storyboard */; };
 		3A3E5C801D7DBE420056468E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E5C7F1D7DBE420056468E /* Assets.xcassets */; };
@@ -29,10 +33,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3203681D829B5E00E7029C /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
+		3A32036B1D82A2D800E7029C /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		3A32036C1D82A2D800E7029C /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
 		3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
 		3A38E5A91D80749A001C8175 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3A38E5AB1D807799001C8175 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		3A38E5AD1D8077D5001C8175 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		3A3DBD941D81DED40046FF0F /* UIBarButttonItem-Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButttonItem-Extention.swift"; sourceTree = "<group>"; };
 		3A3E5C751D7DBE420056468E /* weiboSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiboSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E5C781D7DBE420056468E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A3E5C7D1D7DBE420056468E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,10 +71,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A32036A1D82A20800E7029C /* UIPopover */ = {
+			isa = PBXGroup;
+			children = (
+				3A32036B1D82A2D800E7029C /* PopoverViewController.swift */,
+				3A32036C1D82A2D800E7029C /* PopoverViewController.xib */,
+			);
+			path = UIPopover;
+			sourceTree = "<group>";
+		};
 		3A38E5A41D806681001C8175 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 				3A38E5A51D80670D001C8175 /* Gategory */,
+				3A3203681D829B5E00E7029C /* TitleButton.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -75,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				3A38E5A61D80673F001C8175 /* UIButton-Extension.swift */,
+				3A3DBD941D81DED40046FF0F /* UIBarButttonItem-Extention.swift */,
 			);
 			path = Gategory;
 			sourceTree = "<group>";
@@ -143,6 +162,7 @@
 		3A3E5C8C1D7DC6080056468E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3A32036A1D82A20800E7029C /* UIPopover */,
 				3A923F771D7EBBF700CF1393 /* Home.storyboard */,
 				3A3E5C961D7DD5380056468E /* HomeViewController.swift */,
 			);
@@ -251,6 +271,7 @@
 				3A923F801D7EBC4F00CF1393 /* Profile.storyboard in Resources */,
 				3A3E5C801D7DBE420056468E /* Assets.xcassets in Resources */,
 				3A3E5CA01D7DE5760056468E /* MainVCSettings.json in Resources */,
+				3A32036E1D82A2D800E7029C /* PopoverViewController.xib in Resources */,
 				3A923F831D7EC22900CF1393 /* NULL.storyboard in Resources */,
 				3A923F7B1D7EBC1700CF1393 /* Message.storyboard in Resources */,
 				3A923F7E1D7EBC3500CF1393 /* Discover.storyboard in Resources */,
@@ -269,10 +290,13 @@
 				3A38E5A71D80673F001C8175 /* UIButton-Extension.swift in Sources */,
 				3A3E5C791D7DBE420056468E /* AppDelegate.swift in Sources */,
 				3A3E5C931D7DCFC70056468E /* MainViewController.swift in Sources */,
+				3A32036D1D82A2D800E7029C /* PopoverViewController.swift in Sources */,
+				3A3203691D829B5E00E7029C /* TitleButton.swift in Sources */,
 				3A3E5C991D7DD54B0056468E /* MessageViewController.swift in Sources */,
 				3A38E5AA1D80749A001C8175 /* BaseViewController.swift in Sources */,
 				3A38E5AC1D807799001C8175 /* VisitorView.swift in Sources */,
 				3A3E5C971D7DD5380056468E /* HomeViewController.swift in Sources */,
+				3A3DBD951D81DED40046FF0F /* UIBarButttonItem-Extention.swift in Sources */,
 				3A3E5C9B1D7DD5630056468E /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
